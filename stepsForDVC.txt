@@ -6,3 +6,4 @@
 6. now, we need to give location of our data to DVC, for that we'll create a folder named S3 using "mkdir S3"
 7. now, after creating folder, we have to tell DVC to our data source location using "dvc remote add -d DVC_remote_name location_name"
 8. now start versioning your data from DVC using "dvc add data/"
+9. now commit and add our data through DVC using "dvc commit" and "dvc push"
