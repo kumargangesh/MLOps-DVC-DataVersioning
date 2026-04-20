@@ -8,6 +8,13 @@ data = {
 
 data = pandas.DataFrame(data)
 
+new_data = {
+    'name' : 'aparchit',
+    'age' : 27
+}
+
+data.loc[len(data.index)] = new_data
+
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 
