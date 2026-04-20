@@ -15,6 +15,13 @@ new_data = {
 
 data.loc[len(data.index)] = new_data
 
+new_data2 = {
+    'name' : 'hitler',
+    'age' : 52
+}
+
+data.loc[len(data.index)] = new_data2
+
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 
